@@ -24,7 +24,7 @@ class VectorStoreManager:
         self.vector_store = None
 
     def load_documents(self):
-        """Load PDF, TXT, DOCX files."""
+        """Load PDF, TXT, DOCX files.   """
         try:
             print("\n Loading documents...\n")
 
