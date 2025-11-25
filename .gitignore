@@ -1,0 +1,34 @@
+# Minimal .gitignore for this FastAPI agent project
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments (common names)
+venv/
+.venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project data and vector DBs (large or sensitive)
+Data/
+qdrant_db/
+vectorstore/
+
+# Logs
+logs/
+*.log
+
+# Secrets
+secrets.json
